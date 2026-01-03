@@ -1,7 +1,7 @@
 {
   "name": "zerox-ai-frontend",
-  "version": "1.0.0",
-  "description": "ZeroX AI Platform - Modern AI Chat Interface",
+  "version": "2.0.0",
+  "description": "ZeroX AI Platform v2.0 - Advanced AI Chat with Plugins, RAG & Workspaces",
   "private": true,
   "scripts": {
     "dev": "vite",
@@ -19,7 +19,11 @@
     "react-syntax-highlighter": "^15.5.0",
     "lucide-react": "^0.303.0",
     "clsx": "^2.1.0",
-    "date-fns": "^3.2.0"
+    "date-fns": "^3.2.0",
+    "react-dropzone": "^14.2.3",
+    "framer-motion": "^10.18.0",
+    "react-hot-toast": "^2.4.1",
+    "recharts": "^2.10.4"
   },
   "devDependencies": {
     "@types/react": "^18.2.47",

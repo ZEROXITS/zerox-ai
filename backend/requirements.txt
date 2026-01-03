@@ -1,20 +1,48 @@
+# Core
 fastapi==0.109.0
 uvicorn[standard]==0.27.0
-python-jose[cryptography]==3.3.0
-passlib[bcrypt]==1.7.4
-python-multipart==0.0.6
-sqlalchemy==2.0.25
-aiosqlite==0.19.0
-httpx==0.26.0
 pydantic==2.5.3
 pydantic-settings==2.1.0
 python-dotenv==1.0.0
+python-multipart==0.0.6
+
+# Authentication
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+cryptography==41.0.7
+
+# Database
+sqlalchemy==2.0.25
+aiosqlite==0.19.0
+
+# HTTP Client
+httpx==0.26.0
+
+# AI Models
 groq==0.4.2
 huggingface-hub==0.20.3
-transformers==4.37.2
-torch==2.1.2
-accelerate==0.26.1
-redis==5.0.1
-celery==5.3.6
+
+# Rate Limiting
 slowapi==0.1.9
-cryptography==41.0.7
+redis==5.0.1
+
+# Background Tasks
+celery==5.3.6
+
+# Document Processing (RAG)
+PyPDF2==3.0.1
+python-docx==1.1.0
+pdfplumber==0.10.3
+
+# Embeddings (optional - for better RAG)
+sentence-transformers==2.2.2
+
+# Timezone
+pytz==2024.1
+
+# Email (optional)
+aiosmtplib==3.0.1
+email-validator==2.1.0
+
+# Monitoring
+prometheus-client==0.19.0

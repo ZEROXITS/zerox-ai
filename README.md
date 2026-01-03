@@ -1,13 +1,14 @@
-# 🤖 ZeroX AI Platform
+# 🤖 ZeroX AI Platform v2.0
 
 <div align="center">
 
-![ZeroX AI](https://img.shields.io/badge/ZeroX-AI-blue?style=for-the-badge&logo=openai)
+![ZeroX AI](https://img.shields.io/badge/ZeroX-AI%20v2.0-blue?style=for-the-badge&logo=openai)
 ![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)
 ![React](https://img.shields.io/badge/React-18-blue?style=for-the-badge&logo=react)
+![FastAPI](https://img.shields.io/badge/FastAPI-0.109-teal?style=for-the-badge&logo=fastapi)
 
-**منصة ذكاء اصطناعي متكاملة مبنية بنماذج مجانية مفتوحة المصدر**
+**🚀 منصة ذكاء اصطناعي متكاملة للمؤسسات - مبنية بنماذج مجانية مفتوحة المصدر**
 
 [English](#english) | [العربية](#arabic)
 
@@ -24,6 +25,38 @@
 - **Gemma 2** - Google's efficient model
 - Powered by **Groq** (ultra-fast inference)
 
+### 🔌 Plugins System (NEW!)
+- **Web Search** - Search the internet in real-time
+- **Calculator** - Mathematical calculations
+- **Weather** - Get weather information
+- **Wikipedia** - Search Wikipedia
+- **Code Executor** - Run Python code safely
+- **URL Summarizer** - Extract content from URLs
+- **Translator** - Translate between languages
+
+### 📚 RAG - Chat with Documents (NEW!)
+- Upload PDF, DOCX, TXT, CSV, JSON files
+- Semantic search in your documents
+- AI-powered Q&A with your data
+- Vector embeddings for accurate retrieval
+
+### 👥 Team Workspaces (NEW!)
+- Create team workspaces
+- Invite members with roles (Owner/Admin/Member)
+- Shared conversations
+- Collaborative AI chat
+
+### 🔑 Developer API (NEW!)
+- Generate API keys
+- OpenAI-compatible endpoints
+- Rate limiting per key
+- Usage tracking
+
+### 📤 Export (NEW!)
+- Export conversations as JSON, Markdown, HTML, Text
+- Export all user data (GDPR compliance)
+- Backup your conversations
+
 ### 🔐 Enterprise-Grade Security
 - JWT authentication with refresh tokens
 - Encrypted API key storage
@@ -35,12 +68,6 @@
 - Markdown & code syntax highlighting
 - Conversation history
 - Multiple AI models selection
-
-### 👥 User Management
-- User registration & login
-- Profile customization
-- Usage tracking & limits
-- Admin dashboard
 
 ### 📊 Admin Dashboard
 - Platform statistics
